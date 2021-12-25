@@ -1,18 +1,17 @@
 #include "game.h"
 
-class Board {
-    unsigned int board;
-    Board
+
+Game::Game(){
+    board = 0;
+    compute_move_tables();
+    compute_score_tables();
+    init();
 }
 
-class Game {
-    Board b;
-    void compute_tables();
-    void 
+static void Game::compute_score_tables(){
+
 }
 
+static void Game::compute_move_tables(){
 
-int main() {
-
-    return 0;
 }
