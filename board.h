@@ -1,7 +1,7 @@
-#include "game.h"
+#include "Game.h"
 
 class Board {
-    int board;
+    unsigned long long board;
     Board();
     void move_left();
     void move_right();
