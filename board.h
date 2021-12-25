@@ -8,4 +8,5 @@ class Board {
     void move_up();
     void move_down();
     void add_random_tile();
+    void print();
 }
