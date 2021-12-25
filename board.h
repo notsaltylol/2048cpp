@@ -1,7 +1,7 @@
 #include "Game.h"
 
 class Board {
-    unsigned long long board;
+    uint64_t board;
     Board();
     void move_left();
     void move_right();
@@ -9,4 +9,4 @@ class Board {
     void move_down();
     void add_random_tile();
     void print();
-}
+};

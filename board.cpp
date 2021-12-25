@@ -1,4 +1,4 @@
-#include "game.h"
+#include "Board.h"
 
 Board::Board() {
     board = 0;
